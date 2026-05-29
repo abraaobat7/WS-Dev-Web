@@ -1,0 +1,31 @@
+p
+{
+    padding: 30px;
+    border-width: 20px;
+    border-color: #7eeda5;
+    border-style: solid;
+    border-radius: 20px;
+    
+}p
+{
+    border-width: 20px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    border-color: #7eeda5;
+    border-style: solid;
+    border-radius: 20px;
+}
+p
+{
+    border-width: 20px 10px 10px 50px;
+    border-color: #7eeda5 #ed7ea5 #cced7e #ed7e7e;
+}
+p
+{
+    /* Espessura cor estilo de borda */
+    border: 3px solid #7eeda5;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,23 @@
+p
+{
+    color: #7eeda5;
+}
+p
+{
+    padding: 30px;
+}
+p
+{
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+}
+p
+{
+    padding: 50px 100px;
+}
+p
+{
+    padding: 50px 100px 10px 200px;
+}
