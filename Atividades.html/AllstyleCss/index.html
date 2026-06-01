@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referência CSS de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Referência Visual de Propriedades CSS de Texto</h1>
+        <p>Cada card mostra o efeito visual e a linha de código CSS correspondente.</p>
+    </header>
+
+    <section>
+        <h2>1. Font Family (Família da Fonte)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Serif</span>
+                <p class="visual demo-serif">Texto em fonte serifada.</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-family</span>: <span class="val">Georgia, serif</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Sans-serif</span>
+                <p class="visual demo-sans">Texto em fonte sem serifa.</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-family</span>: <span class="val">'Inter', sans-serif</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Monospace</span>
+                <p class="visual demo-mono">const x = 10;</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-family</span>: <span class="val">'JetBrains Mono', monospace</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Font Weight (Peso da Fonte)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Peso 100 (Thin)</span>
+                <p class="visual demo-w-100">Texto muito fino</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-weight</span>: <span class="val">100</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Peso 400 (Normal)</span>
+                <p class="visual demo-w-400">Texto padrão</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-weight</span>: <span class="val">400</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Peso 700 (Bold)</span>
+                <p class="visual demo-w-700">Texto em negrito</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-weight</span>: <span class="val">700</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Peso 900 (Black)</span>
+                <p class="visual demo-w-900">Texto extra negrito</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">font-weight</span>: <span class="val">900</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Text Transform (Transformação)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Uppercase</span>
+                <p class="visual demo-upper">texto em maiúsculas</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-transform</span>: <span class="val">uppercase</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Lowercase</span>
+                <p class="visual demo-lower">TEXTO EM MINÚSCULAS</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-transform</span>: <span class="val">lowercase</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Capitalize</span>
+                <p class="visual demo-cap">primeira letra maiuscula</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-transform</span>: <span class="val">capitalize</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Text Shadow (Sombra do Texto)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Sombra Suave</span>
+                <p class="visual demo-shadow-soft">Sombra Suave</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-shadow</span>: <span class="val">2px 2px 4px rgba(0,0,0,0.1)</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Sombra Dura (Retro)</span>
+                <p class="visual demo-shadow-hard">Sombra Dura</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-shadow</span>: <span class="val">3px 3px 0 #cc0000</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Sombra Neon (Glow)</span>
+                <p class="visual demo-shadow-glow">Efeito Neon</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-shadow</span>: <span class="val">0 0 10px rgba(204, 0, 0, 0.8)</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Text Decoration (Decoração)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Underline Moderno</span>
+                <p class="visual demo-underline">Texto sublinhado</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-decoration</span>: <span class="val">underline</span>; <span class="prop">text-underline-offset</span>: <span class="val">4px</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Line Through</span>
+                <p class="visual demo-linethrough">Texto riscado</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-decoration</span>: <span class="val">line-through</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Overline</span>
+                <p class="visual demo-overline">Texto com linha em cima</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-decoration</span>: <span class="val">overline</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>6. Letter Spacing (Espaçamento entre letras)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Espaçamento Apertado</span>
+                <p class="visual demo-ls-tight">Texto Apertado</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">letter-spacing</span>: <span class="val">-0.05em</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Espaçamento Largo</span>
+                <p class="visual demo-ls-wide">TEXTO LARGO</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">letter-spacing</span>: <span class="val">0.2em</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>7. Text Align (Alinhamento)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Esquerda</span>
+                <p class="visual demo-left">Alinhado à esquerda.</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-align</span>: <span class="val">left</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Centro</span>
+                <p class="visual demo-center">Alinhado ao centro.</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-align</span>: <span class="val">center</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Direita</span>
+                <p class="visual demo-right">Alinhado à direita.</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-align</span>: <span class="val">right</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Justificado</span>
+                <p class="visual demo-justify">O texto justificado distribui o espaço uniformemente para alinhar ambas as margens esquerda e direita do parágrafo.</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">text-align</span>: <span class="val">justify</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>8. Line Height (Altura da Linha)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Apertado (1)</span>
+                <p class="visual demo-lh-tight">Linha 1<br>Linha 2<br>Linha 3</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">line-height</span>: <span class="val">1</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Normal (1.6)</span>
+                <p class="visual demo-lh-normal">Linha 1<br>Linha 2<br>Linha 3</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">line-height</span>: <span class="val">1.6</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Frouxo (2.5)</span>
+                <p class="visual demo-lh-loose">Linha 1<br>Linha 2<br>Linha 3</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">line-height</span>: <span class="val">2.5</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>9. Truncation (Truncamento)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">1 Linha com Reticências</span>
+                <p class="visual demo-truncate">Este é um texto muito longo que será truncado e terminará com reticências.</p>
+                <div class="code-block">
+<span class="sel">.exemplo</span> {
+  <span class="prop">white-space</span>: <span class="val">nowrap</span>;
+  <span class="prop">overflow</span>: <span class="val">hidden</span>;
+  <span class="prop">text-overflow</span>: <span class="val">ellipsis</span>;
+}</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Múltiplas Linhas (Clamp)</span>
+                <p class="visual demo-clamp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <div class="code-block">
+<span class="sel">.exemplo</span> {
+  <span class="prop">display</span>: <span class="val">-webkit-box</span>;
+  <span class="prop">-webkit-line-clamp</span>: <span class="val">3</span>;
+  <span class="prop">-webkit-box-orient</span>: <span class="val">vertical</span>;
+  <span class="prop">overflow</span>: <span class="val">hidden</span>;
+}</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>10. Word Break (Quebra de Palavra)</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Quebrar Palavras Longas</span>
+                <p class="visual demo-break-word">supercalifragilisticexpialidocious</p>
+                <div class="code-block"><span class="sel">.exemplo</span> { <span class="prop">overflow-wrap</span>: <span class="val">break-word</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>11. Pseudo-elementos</h2>
+        <div class="grid">
+            <div class="demo-card">
+                <span class="label">Primeira Linha</span>
+                <p class="visual demo-first-line">A primeira linha deste texto fica em negrito e maiúscula. As demais linhas continuam normais.</p>
+                <div class="code-block"><span class="sel">.exemplo::first-line</span> { <span class="prop">font-weight</span>: <span class="val">bold</span>; <span class="prop">text-transform</span>: <span class="val">uppercase</span>; }</div>
+            </div>
+            <div class="demo-card">
+                <span class="label">Primeira Letra (Drop Cap)</span>
+                <p class="visual demo-first-letter">A primeira letra fica grande e estilizada, como em livros e revistas.</p>
+                <div class="code-block"><span class="sel">.exemplo::first-letter</span> { <span class="prop">font-size</span>: <span class="val">3em</span>; <span class="prop">float</span>: <span class="val">left</span>; }</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+*
+{
+    background-color: lightblue;
+    font-size: 32px;
+}
+body
+{
+    background-color: rgb(29, 13, 173);
+    width:50%;
+    font-size: 2em;
+}
+.pai
+{
+    background-color: rgb(9, 223, 27);
+    width:50%;
+    font-size: 2em;
+}
+.filho
+{
+    background-color: rgb(233, 13, 134);
+    width:50%;
+    font-size: 2em;
+}
