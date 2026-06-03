@@ -1,0 +1,33 @@
+.card
+{
+background-color: #a9e3eb;
+margin: 30px;
+padding: 10px 30px;
+width: 360px;
+box-sizing: border-box;
+box-shadow: 4px 4px 10px;
+border-radius: 10px;
+}
+p
+{
+ box-shadow:30;
+ border: 5px solid green; 
+}
+.foto {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+h1
+{
+    color: blue;
+}
+a{
+    text-decoration:none;
+    color:rgb(20, 201, 225);
+}
+ 
+a:hover{
+    color:blue;
+    text-decoration:underline;
+}
