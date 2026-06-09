@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="./" method="post">
+      <!-- Campo para digitar o nome completo -->
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Digite seu nome completo"
+        required
+      />
+      <br />
+      <!-- Campo para digitar o e-mail -->
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Digite seu e-mail"
+        required
+      />
+      <br />
+      <!-- Campo para digitar o telefone -->
+      <label for="telefone">Telefone:</label>
+      <input
+        type="tel"
+        id="telefone"
+        name="telefone"
+        placeholder="Digite seu telefone"
+        required
+      />
+      <br />
+      <!-- Campo para digitar a senha -->
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="Digite sua senha"
+        required
+      />
+      <br />
+      <!-- Campo para confirmar a senha -->
+      <label for="confirmacao">Confirmação de senha:</label>
+      <input
+        type="password"
+        id="confirmacao"
+        name="confirmacao"
+        placeholder="Confirme sua senha"
+        required
+      />
+      <br />
+      <!-- Campo para digitar a idade (apenas números entre 18 e 100) -->
+      <label for="idade">Idade:</label>
+      <input
+        type="number"
+        id="idade"
+        name="idade"
+        min="18"
+        max="100"
+        placeholder="Digite sua idade"
+        required
+      />
+      <br />
+      <!-- Seleção de gênero -->
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Selecione</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+      </select>
+      <br />
+      <h2>Interesses</h2>
+      <!-- Caixa de seleção para interesse em tecnologia -->
+      <input
+        type="checkbox"
+        name="interesses"
+        id="tecnologia"
+        value="tecnologia"
+      />
+      <label for="tecnologia">Tecnologia</label>
+      <!-- Caixa de seleção para interesse em esportes -->
+      <input type="checkbox" name="interesses" id="esportes" value="esportes" />
+      <label for="esportes">Esportes</label>
+      <!-- Caixa de seleção para interesse em música -->
+      <input type="checkbox" name="interesses" id="musica" value="musica" />
+      <label for="musica">Música</label>
+      <br />
+      <!-- Opção para receber ou não a newsletter (usar radio para escolha única) -->
+      <input type="radio" name="newsletter" id="newsletter_sim" value="sim" />
+      <label for="newsletter_sim">Deseja receber nossa newsletter?</label>
+      <input type="radio" name="newsletter" id="newsletter_nao" value="nao" />
+      <label for="newsletter_nao">Não desejo receber nossa newsletter</label>
+      <br />
+      <h2>Informações adicionais</h2>
+      <!-- Campo para compartilhar sonhos (texto livre) -->
+      <label for="sonho">Sonhos:</label>
+      <textarea
+        id="sonho"
+        name="sonho"
+        placeholder="Compartilhe seus sonhos conosco"
+        rows="4"
+        cols="50"
+      ></textarea>
+      <br />
+      <!-- Campo para escolher uma cor favorita -->
+      <label for="cor">Cor Favorita:</label>
+      <input type="color" id="cor" name="cor" />
+      <br />
+      <!-- Campo para selecionar a data de nascimento -->
+      <label for="data">Data de Nascimento:</label>
+      <input type="date" id="data" name="data" />
+      <br />
+      <!-- Campo para enviar um arquivo -->
+      <label for="arquivo">Envie um arquivo:</label>
+      <input type="file" id="arquivo" name="arquivo" />
+      <br />
+      <!-- Botão para enviar o formulário -->
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="./" method="post">
+      <!-- Campo para digitar o nome completo -->
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Digite seu nome completo"
+        required
+      />
+      <br />
+      <!-- Campo para digitar o e-mail -->
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Digite seu e-mail"
+        required
+      />
+      <br />
+      <!-- Campo para digitar o telefone -->
+      <label for="telefone">Telefone:</label>
+      <input
+        type="tel"
+        id="telefone"
+        name="telefone"
+        placeholder="Digite seu telefone"
+        required
+      />
+      <br />
+      <!-- Campo para digitar a senha -->
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="Digite sua senha"
+        required
+      />
+      <br />
+      <!-- Campo para confirmar a senha -->
+      <label for="confirmacao">Confirmação de senha:</label>
+      <input
+        type="password"
+        id="confirmacao"
+        name="confirmacao"
+        placeholder="Confirme sua senha"
+        required
+      />
+      <br />
+      <!-- Campo para digitar a idade (apenas números entre 18 e 100) -->
+      <label for="idade">Idade:</label>
+      <input
+        type="number"
+        id="idade"
+        name="idade"
+        min="18"
+        max="100"
+        placeholder="Digite sua idade"
+        required
+      />
+      <br />
+      <!-- Seleção de gênero -->
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Selecione</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+      </select>
+      <br />
+      <h2>Interesses</h2>
+      <!-- Caixa de seleção para interesse em tecnologia -->
+      <input
+        type="checkbox"
+        name="interesses"
+        id="tecnologia"
+        value="tecnologia"
+      />
+      <label for="tecnologia">Tecnologia</label>
+      <!-- Caixa de seleção para interesse em esportes -->
+      <input type="checkbox" name="interesses" id="esportes" value="esportes" />
+      <label for="esportes">Esportes</label>
+      <!-- Caixa de seleção para interesse em música -->
+      <input type="checkbox" name="interesses" id="musica" value="musica" />
+      <label for="musica">Música</label>
+      <br />
+      <!-- Opção para receber ou não a newsletter (usar radio para escolha única) -->
+      <input type="radio" name="newsletter" id="newsletter_sim" value="sim" />
+      <label for="newsletter_sim">Deseja receber nossa newsletter?</label>
+      <input type="radio" name="newsletter" id="newsletter_nao" value="nao" />
+      <label for="newsletter_nao">Não desejo receber nossa newsletter</label>
+      <br />
+      <h2>Informações adicionais</h2>
+      <!-- Campo para compartilhar sonhos (texto livre) -->
+      <label for="sonho">Sonhos:</label>
+      <textarea
+        id="sonho"
+        name="sonho"
+        placeholder="Compartilhe seus sonhos conosco"
+        rows="4"
+        cols="50"
+      ></textarea>
+      <br />
+      <!-- Campo para escolher uma cor favorita -->
+      <label for="cor">Cor Favorita:</label>
+      <input type="color" id="cor" name="cor" />
+      <br />
+      <!-- Campo para selecionar a data de nascimento -->
+      <label for="data">Data de Nascimento:</label>
+      <input type="date" id="data" name="data" />
+      <br />
+      <!-- Campo para enviar um arquivo -->
+      <label for="arquivo">Envie um arquivo:</label>
+      <input type="file" id="arquivo" name="arquivo" />
+      <br />
+      <!-- Botão para enviar o formulário -->
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+<!-- Campo para digitar o e-mail -->
+<label for="email">E-mail:</label>
+<input
+  type="email"
+  id="email"
+  name="email"
+  placeholder="Digite seu e-mail"
+  required
+/>
+<!-- 
+type="email": define que o campo aceita apenas e-mails válidos
+id="email": identifica o campo de forma única na página
+name="email": nome do campo enviado no formulário
+placeholder="Digite seu e-mail": texto de dica dentro do campo
+required: torna o preenchimento obrigatório
+for="email": associa o label ao input de id="email"
+-->
+
+<br />
+
+<!-- Campo para digitar o telefone -->
+<label for="telefone">Telefone:</label>
+<input
+  type="tel"
+  id="telefone"
+  name="telefone"
+  placeholder="Digite seu telefone"
+  required
+/>
+<!-- 
+type="tel": campo para telefone
+id="telefone": identifica o campo
+name="telefone": nome enviado no formulário
+placeholder="Digite seu telefone": dica no campo
+required: obrigatório
+for="telefone": associa o label ao input
+-->
+
+<br />
+
+<!-- Campo para digitar a senha -->
+<label for="senha">Senha:</label>
+<input
+  type="password"
+  id="senha"
+  name="senha"
+  placeholder="Digite sua senha"
+  required
+/>
+<!-- 
+type="password": oculta o texto digitado
+id="senha": identifica o campo
+name="senha": nome enviado no formulário
+placeholder="Digite sua senha": dica no campo
+required: obrigatório
+for="senha": associa o label ao input
+-->
+
+<br />
+
+<!-- Campo para confirmar a senha -->
+<label for="confirmacao">Confirmação de senha:</label>
+<input
+  type="password"
+  id="confirmacao"
+  name="confirmacao"
+  placeholder="Confirme sua senha"
+  required
+/>
+<!-- 
+type="password": oculta o texto digitado
+id="confirmacao": identifica o campo
+name="confirmacao": nome enviado no formulário
+placeholder="Confirme sua senha": dica no campo
+required: obrigatório
+for="confirmacao": associa o label ao input
+-->
+
+<br />
+
+<!-- Campo para digitar a idade (apenas números entre 18 e 100) -->
+<label for="idade">Idade:</label>
+<input
+  type="number"
+  id="idade"
+  name="idade"
+  min="18"
+  max="100"
+  placeholder="Digite sua idade"
+  required
+/>
+<!-- 
+type="number": aceita apenas números
+id="idade": identifica o campo
+name="idade": nome enviado no formulário
+min="18": valor mínimo permitido
+max="100": valor máximo permitido
+placeholder="Digite sua idade": dica no campo
+required: obrigatório
+for="idade": associa o label ao input
+-->
+
+<br />
+
+<!-- Seleção de gênero -->
+<label for="genero">Gênero:</label>
+<select id="genero" name="genero" required>
+  <option value="">Selecione</option>
+  <option value="masculino">Masculino</option>
+  <option value="feminino">Feminino</option>
+  <option value="outro">Outro</option>
+</select>
+<!-- 
+<select>: cria uma lista suspensa
+id="genero": identifica o campo
+name="genero": nome enviado no formulário
+required: obrigatório
+for="genero": associa o label ao select
+<option value="">: opção padrão (nenhuma selecionada)
+<option value="masculino">: opção masculina
+<option value="feminino">: opção feminina
+<option value="outro">: opção outro
+-->
+
+<br />
+
+<h2>Interesses</h2>
+<!-- Caixa de seleção para interesse em tecnologia -->
+<input type="checkbox" name="interesses" id="tecnologia" value="tecnologia" />
+<label for="tecnologia">Tecnologia</label>
+<!-- 
+type="checkbox": caixa de seleção
+name="interesses": nome enviado no formulário (pode ter vários)
+id="tecnologia": identifica o campo
+value="tecnologia": valor enviado se marcado
+for="tecnologia": associa o label ao input
+-->

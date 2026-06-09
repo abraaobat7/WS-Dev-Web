@@ -1,0 +1,129 @@
+body {
+  /* Gradiente de fundo, fonte e espaçamento */
+  background: linear-gradient(
+    135deg,
+    #0bcad8 0%,
+    #2f80ed 100%
+  ); /* Fundo com gradiente azul */
+  font-family: "Poppins", Arial, sans-serif; /* Fonte moderna e legível */
+  margin: 0; /* Remove margens padrão */
+  padding: 40px 0; /* Espaçamento superior e inferior */
+  min-height: 100vh; /* Garante altura mínima de tela cheia */
+}
+
+h1 {
+  /* Título principal centralizado e estilizado */
+  color: #fff; /* Cor branca */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 28px; /* Espaço abaixo do título */
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.18); /* Sombra suave no texto */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  font-size: 2.5rem; /* Tamanho grande */
+}
+
+h2 {
+  /* Subtítulo com sombra leve */
+  color: #303030; /* Cor quase branca */
+  margin-bottom: 14px; /* Espaço abaixo */
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  font-size: 1.3rem; /* Tamanho médio */
+}
+
+form {
+  /* Formulário centralizado e destacado */
+  background: #fff; /* Fundo branco */
+  padding: 32px 28px; /* Espaçamento interno */
+  border-radius: 18px; /* Cantos arredondados */
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.18); /* Sombra forte */
+  max-width: 420px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza na tela */
+  border-top: 4px solid #0bcad8; /* Borda superior azul */
+  transition: box-shadow 0.3s; /* Animação suave na sombra */
+}
+form:hover {
+  /* Efeito ao passar o mouse */
+  box-shadow: 0 12px 40px rgba(44, 62, 80, 0.28); /* Sombra mais forte */
+}
+
+label {
+  /* Rótulo destacado */
+  display: block; /* Ocupa linha toda */
+  margin-bottom: 7px; /* Espaço abaixo */
+  font-weight: 600; /* Negrito */
+  color: #2f80ed; /* Azul forte */
+  letter-spacing: 1px; /* Espaçamento entre letras */
+}
+
+input,
+select,
+textarea {
+  /* Campos de formulário estilizados */
+  width: 100%; /* Ocupa toda largura */
+  padding: 10px 14px; /* Espaçamento interno */
+  margin-bottom: 18px; /* Espaço abaixo */
+  border: 1.5px solid #b2bec3; /* Borda cinza clara */
+  border-radius: 7px; /* Cantos arredondados */
+  font-size: 1rem; /* Tamanho padrão */
+  transition: border-color 0.2s, box-shadow 0.2s; /* Animação suave */
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04); /* Sombra leve */
+}
+input:focus,
+select:focus,
+textarea:focus {
+  /* Destaque ao focar */
+  border-color: #0bcad8; /* Borda azul */
+  outline: none; /* Remove contorno padrão */
+  box-shadow: 0 0 0 2px #0bcad866; /* Sombra azul clara */
+}
+
+button,
+input[type="submit"] {
+  /* Botão estilizado */
+  background: linear-gradient(
+    90deg,
+    #0bcad8 60%,
+    #2f80ed 100%
+  ); /* Gradiente azul */
+  color: #fff; /* Texto branco */
+  border: none; /* Sem borda */
+  border-radius: 7px; /* Cantos arredondados */
+  padding: 12px 0; /* Espaçamento interno */
+  width: 100%; /* Ocupa toda largura */
+  font-size: 1.1rem; /* Tamanho maior */
+  font-weight: bold; /* Negrito */
+  cursor: pointer; /* Muda cursor */
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.1); /* Sombra leve */
+  transition: background 0.2s, transform 0.2s; /* Animação suave */
+  margin-top: 8px; /* Espaço acima */
+}
+button:hover,
+input[type="submit"]:hover {
+  /* Efeito ao passar o mouse */
+  background: linear-gradient(
+    90deg,
+    #2f80ed 60%,
+    #0bcad8 100%
+  ); /* Inverte gradiente */
+  transform: translateY(-2px) scale(1.03); /* Sobe e aumenta levemente */
+}
+input[type="submit"]:active {
+  /* Efeito ao clicar */
+  transform: translateY(0) scale(0.98); /* Abaixa e diminui */
+}
+input[type="submit"]:disabled {
+  /* Botão desabilitado */
+  background: #b2bec3; /* Cinza */
+  cursor: not-allowed; /* Cursor proibido */
+  box-shadow: none; /* Sem sombra */
+}
+input[type="radio"],
+input[type="checkbox"] {
+  /* Inputs de seleção */
+  width: auto; /* Largura padrão */
+  margin-right: 8px; /* Espaço à direita */
+}
+interesses {
+  display: flex; /* Layout flexível */
+  flex-wrap: wrap; /* Permite quebra de linha */
+  gap: 12px; /* Espaço entre itens */
+}
