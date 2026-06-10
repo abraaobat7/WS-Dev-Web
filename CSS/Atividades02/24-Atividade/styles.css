@@ -1,0 +1,24 @@
+li
+{
+background-color: coral;
+color: white;
+}
+
+.block
+{
+    display: block;
+    width: 10px;
+    margin: 5px;
+}
+.inline
+{
+    display: inline;
+    width: 5px;
+    margin: 5px;
+}
+.inline-block
+{
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}

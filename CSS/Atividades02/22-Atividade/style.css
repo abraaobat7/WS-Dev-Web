@@ -1,0 +1,14 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: coral;
+    background-image: url('./D8KnpNnW4AE_K8T.jpg');
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background-attachment: scroll;
+    background-position: right;
+}
+p
+{
+    color: white;
+}
